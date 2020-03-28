@@ -7,4 +7,12 @@
 package problem1.mybst;
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
+   private TreeNode root;
+    private int length;
+    private int [] arr;
+    private int index;
+
+    public TreeNode getRoot() {
+        return root;
+    }
 }
